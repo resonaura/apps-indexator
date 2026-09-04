@@ -8,6 +8,7 @@
 [![APIs](https://img.shields.io/badge/APIs-Win32%20%7C%20Shell32%20%7C%20GDI32-lightgrey.svg)](#architecture)
 [![Companion](https://img.shields.io/badge/Companion-FoxDock%20Ecosystem-ff69b4.svg)](https://github.com/resonaura/foxdock)
 [![Status](https://img.shields.io/badge/Status-Historical%20Archive%20(2019)-yellow.svg)](#disclaimer--legacy-notice)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/resonaura)
 
 **AppsIndexator** is an automated Windows desktop utility built with C# and WPF that indexes all installed software on the system, traverses Start Menu shortcuts, and extracts high-resolution application icons directly from executables and DLLs using native Windows Shell APIs.
 
