@@ -46,6 +46,12 @@ The utility combines registry traversal with low-level Win32 P/Invoke wrappers:
 
 ---
 
+## 🔬 Historical Prototypes & Experiments
+
+- **[`experiments/shicons/`](experiments/shicons/)**: The initial proof-of-concept created in August 2019 testing the extraction of raw icon indices from Windows system dynamic link libraries (`shell32.dll`).
+
+---
+
 ## 📦 Project Structure
 
 ```
@@ -62,5 +68,7 @@ apps-indexator/
 │   │   └── GDI32.cs            # GDI32 graphic device context interop
 │   ├── icon.ico                # Application icon
 │   └── AppsIndexator.csproj    # Project file (.NET Framework 4.7.2)
+├── experiments/
+│   └── shicons/                # Shell32 icon extraction research prototype
 └── logo.png                    # Project branding
 ```

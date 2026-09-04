@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29001.49
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHIcons", "SHIcons\SHIcons.csproj", "{4ED2E18D-7604-45DC-8978-C7AC0BA19211}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4ED2E18D-7604-45DC-8978-C7AC0BA19211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED2E18D-7604-45DC-8978-C7AC0BA19211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED2E18D-7604-45DC-8978-C7AC0BA19211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED2E18D-7604-45DC-8978-C7AC0BA19211}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2A09C4F-1F5D-40F3-9763-92D1184507EC}
+	EndGlobalSection
+EndGlobal
