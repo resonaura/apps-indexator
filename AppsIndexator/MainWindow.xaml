@@ -1,0 +1,19 @@
+﻿<Window x:Class="AppsIndexator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppsIndexator"
+        mc:Ignorable="d"
+        Title="AppsIndexator" Height="450" Width="800" Icon="icon.ico">
+    <Window.TaskbarItemInfo>
+        <TaskbarItemInfo ProgressValue="1" x:Name="TTI" ProgressState="Normal"></TaskbarItemInfo>
+    </Window.TaskbarItemInfo>
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock FontSize="24" Name="PrText">Тут будет загрузка</TextBlock>
+            <ProgressBar Width="600" Height="40" Value="100" Name="PrBar"></ProgressBar>
+            <TextBox MaxLines="90000000" Width="600" Height="300" Background="#eee" Margin="0,10,0,0" Name="PrList"></TextBox>
+        </StackPanel>
+    </Grid>
+</Window>
